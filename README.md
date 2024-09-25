@@ -2,13 +2,21 @@
 
 ## Overview
 
-Protobuf Demo Server is a simple HTTP server implemented in Python that demonstrates the usage of Protocol Buffers (Protobuf) for data serialization. It serves as an example of how to build a server-client architecture using Protobuf without gRPC, focusing on sending and receiving structured data.
-
+This project demonstrates the usage of Protocol Buffers (Protobuf) for data serialization in a simple Python-based server. It showcases how to build a server-client architecture using Protobuf without relying on gRPC, focusing on efficient data exchange between a Python server and a Flutter client app.
 ## Features
 
-- HTTP server built with Flask
-- Data serialization using Protocol Buffers
-- Easy-to-understand example of a user data model
+- Efficient Data Serialization: Uses Protobuf to serialize and deserialize structured data, reducing message size compared to JSON.  
+- HTTP-based Communication: Implements an HTTP server to facilitate data exchange, offering flexibility where gRPC is not necessary.  
+- Flutter Client Integration: A cross-platform Flutter client app interacts with the server, showcasing Protobuf's multi-platform capabilities.  
+- Lightweight and Simple: A streamlined, easy-to-understand implementation that demonstrates the core concepts of using Protobuf in non-gRPC environments.  
+
+## Components
+Python HTTP Server:  
+Serves as the backend, sending and receiving Protobuf-encoded data via HTTP requests.  
+
+Flutter Client App:   
+A mobile application that communicates with the server to exchange Protobuf data over HTTP.  
+
 
 ## Project Structure
 ![Project Structure](project_structure.png)
@@ -19,7 +27,7 @@ Protobuf Demo Server is a simple HTTP server implemented in Python that demonstr
 - pip (Python package manager)
 - Flutter (for the client application)
 
-## Installation
+## Getting Started
 
 1. Clone the repository:
 
