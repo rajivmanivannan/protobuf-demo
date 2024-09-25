@@ -26,7 +26,7 @@ Protobuf Demo Server is a simple HTTP server implemented in Python that demonstr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/protobuf-demo-server.git
+   git clone https://github.com/rajivmanivannan/protobuf-demo-server.git
    cd protobuf-demo-server
    ```
 2. Create a virtual environment:
