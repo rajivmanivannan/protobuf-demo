@@ -1,4 +1,4 @@
-# Protobuf Demo Server
+# Protobuf Demo
 
 ## Overview
 
@@ -13,8 +13,6 @@ Protobuf Demo Server is a simple HTTP server implemented in Python that demonstr
 ## Project Structure
 ![Project Structure](project_structure.png)
 
-
-
 ## Prerequisites
 
 - Python 3.x
@@ -26,7 +24,7 @@ Protobuf Demo Server is a simple HTTP server implemented in Python that demonstr
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/rajivmanivannan/protobuf-demo-server.git
+   git clone https://github.com/rajivmanivannan/protobuf-demo.git
    cd protobuf-demo-server
    ```
 2. Create a virtual environment:
@@ -58,7 +56,7 @@ To generate both Python and Dart files for the .proto definitions:
 bash scripts/generate_protos.sh  
 ```
 
-## Running the Application
+## Running the Server Application
 
 To run the Python application:
 
@@ -98,6 +96,10 @@ protoc --decode_raw < binary_data_file
 # Decodes the binary data using the .proto definition
 protoc --decode=User proto/user.proto < binary_data.bin
 ```
+
+## Running the client Application  
+Flutter project is under ```/client``` directory. You can open and run the flutter app with your choice of IDE like Android Studio or VSCode etc.,
+
 
 ## License
 This project is licensed under the MIT License

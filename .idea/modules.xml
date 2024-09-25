@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/protobuf-demo-server.iml" filepath="$PROJECT_DIR$/protobuf-demo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protobuf-demo.iml" filepath="$PROJECT_DIR$/protobuf-demo.iml" />
     </modules>
   </component>
 </project>
