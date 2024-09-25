@@ -11,21 +11,7 @@ Protobuf Demo Server is a simple HTTP server implemented in Python that demonstr
 - Easy-to-understand example of a user data model
 
 ## Project Structure
-
-/protobuf-demo-server
-├── /proto                    # Contains .proto files
-│   └── user.proto            # Your Protobuf file
-├── /server                   # Python server code
-│   ├── /generated            # Generated Python code from .proto files
-│   │   └── user_pb2.py       # Generated Python Protobuf file
-│   └── server.py             # Your Python HTTP server
-├── /client                   # Flutter client code
-│   ├── /lib                  # Contains Flutter client source code
-│   │   ├── main.dart         # Main Flutter app file
-│   │   └── /generated        # Generated Dart code from .proto files
-│   │       └── user.pb.dart  # Generated Dart Protobuf file
-└── /scripts                  # Scripts for automation (optional)
-└── generate_protos.sh        # Script to compile .proto files
+![Project Structure](project_structure.png)
 
 
 
