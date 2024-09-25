@@ -64,7 +64,7 @@ To generate both Python and Dart files for the .proto definitions:
 bash scripts/generate_protos.sh  
 ```
 
-## Running the Server Application
+### Running the Server Application
 
 To run the Python application:
 
@@ -105,8 +105,20 @@ protoc --decode_raw < binary_data_file
 protoc --decode=User proto/user.proto < binary_data.bin
 ```
 
-## Running the client Application  
+### Running the client Application  
 Flutter project is under ```/client``` directory. You can open and run the flutter app with your choice of IDE like Android Studio or VSCode etc.,
+  
+or  
+
+```sh
+cd client
+
+# To install dependencies
+flutter pub get 
+
+# To run the app
+flutter run
+```
 
 
 ## License
