@@ -25,6 +25,7 @@ A mobile application that communicates with the server to exchange Protobuf data
 
 - Python 3.x
 - pip (Python package manager)
+- Protoc Compiler
 - Flutter (for the client application)
 
 ## Getting Started
@@ -55,6 +56,16 @@ A mobile application that communicates with the server to exchange Protobuf data
    ```bash
    pip freeze
    ```
+6. Install protoc compiler:
+
+   ```bash
+   brew install protobuf
+   ```   
+7. Install Dart plugin for the protoc compiler (Dart Runtime):
+
+   ```bash
+   dart pub global activate protoc_plugin
+   ```   
 
 ### Protobuf Code Generation
 
